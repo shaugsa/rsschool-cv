@@ -33,6 +33,7 @@ findShort(str);
 ##Work experience:
 
 ##Education:
+
 2015-20 **Belarusian State University of Economics** Faculty of Economics and Management (specialty: economist manager at an industrial enterprise);<br/>
 
 2019-20 **The Academy IT Step** Front-end Developer;<br/>
