@@ -1,0 +1,258 @@
+@font-face {
+	font-family: 'PminGlui';
+	src: url(../../fonts/PMINGLUI.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focusactive{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+$font-stack: PminGlui,;
+
+.page{
+	background-color: #fff;
+
+	.CV-block{
+		margin: 0 auto;
+		width: 1170px;
+		height: 2000px;
+		background-color: #fff;
+
+		.left-container{
+			width: 420px;
+			background-color: #e5f1ff;
+			height: 2200px;
+
+			.foto-block{
+				width: 290px;
+				height: 290px;
+				border-radius: 50%;
+				border: solid 10px #0266de;
+				background-color:  #fff;
+				position: absolute;
+				margin-top: 65px;
+				margin-left: 65px;
+				img{
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+				}
+			}
+			.about-me{
+				position: absolute;
+				margin-top: 410px;
+				margin-left: 20px;
+					img{
+					float: left;
+					}
+				.about-me__text{
+						position: absolute;
+						margin-left: 100px;
+						width: 250px;
+						height: 100px;
+					h2{
+						padding: 20px 0 100px 0;
+						font: 100% $font-stack;
+						color: #0266de;
+						font-size: 38px;
+						font-weight: 900;
+					}
+					p{
+						line-height: 1.6;
+						font-size: 20px;
+						color: #6b6b69;
+					}
+				}
+			}
+			.contacts{
+				position: absolute;
+				margin-left: 20px;
+				margin-top: 900px;
+				img{
+					margin-top: 100px;
+					float: left;
+				}
+				.contacts__text{
+					position: absolute;
+					margin-left: 100px;
+					width: 250px;
+					height: 100px;
+					h2{
+						padding: 20px 0 60px 0;
+						font: 100% $font-stack;
+						color: #0266de;
+						font-size: 38px;
+						font-weight: 900;
+					}
+					p{
+						line-height: 3;
+						font-size: 20px;
+						color: #6b6b69;
+					}
+				}
+			}
+			.education{
+				position: absolute;
+				margin-left: 20px;
+				margin-top: 1300px;
+				img{
+					float: left;
+				}
+				.education__text{
+					position: absolute;
+					margin-left: 100px;
+					width: 250px;
+					height: 100px;
+					h2{
+						padding: 20px 0 60px 0;
+						font: 100% $font-stack;
+						color: #0266de;
+						font-size: 38px;
+						font-weight: 900;
+					}
+					p{
+						line-height: 2;
+						font-size: 20px;
+						color: #6b6b69;
+					}
+				}
+			}
+		}
+	}
+	.right-container{
+		position: absolute;
+		width: 750px;
+		height: 2000px;
+		padding-top: 150px;
+		margin-left: 580px;
+		margin-top: -2200px;
+		.title{
+			padding-bottom: 110px;
+			h1{
+				font-size: 110px;
+				font: $font-stack;
+			}
+			h2{
+				font-size: 60px;
+			}
+		}
+		.experience{
+			width: 300px;
+			height: 500px;
+			h2{
+				font-style: 100% $font-stack;
+				color: #0266de;
+				font-size: 38px;
+				font-weight: 900;
+			}
+		}
+		.professional-skills{
+			padding-bottom: 100px;
+			h2{
+				font-style: 100% $font-stack;
+				color: #0266de;
+				font-size: 38px;
+				font-weight: 900;
+			}
+			.content{
+				ul{
+					li{
+						line-height: 3;
+						p{
+							text-transform: uppercase;
+							font-size: 22px;
+						}
+						.skale{
+							position: absolute;
+							margin: -36px 350px;
+							.line{
+								width: 300px;
+								height: 10px;
+								background-color: #0266de;
+								.right-rounding{
+									position: absolute;
+									width: 10px;
+									height: 10px;
+									background-color: #0266de;
+									border-radius: 50%;
+									margin-left: -5px;
+								}
+								.left-rounding{
+									position: absolute;
+									width: 10px;
+									height: 10px;
+									background-color: #0266de;
+									border-radius: 50%;
+									margin-left: 295px;
+								}
+								.point{
+								position: absolute;
+								width: 25px;
+								height: 25px;
+								background-color: #0266de;
+								border-radius: 50%;
+								margin: -8px 93px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.Interests{
+			position: absolute;
+			.interests__title{
+				padding-bottom: 50px;
+				h2{
+				font-style: 100% $font-stack;
+				color: #0266de;
+				font-size: 38px;
+				font-weight: 900;
+				}
+			}
+			.interests__list{
+				ul{
+					li{
+						display: inline-block;
+						p{
+							color:  #707070;
+							font-size: 30px;
+							padding-left: 35px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
