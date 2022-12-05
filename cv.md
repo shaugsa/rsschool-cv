@@ -13,6 +13,7 @@ I really like programming, but I have never learned how to teach. At the moment 
 
 Therefore, I really want to take this course in order to structure the accumulated knowledge, acquire new ones and share with those who have just come.
 ***
+
 **Skills and Proficiency**
 * HTML5, CSS3
 * JavaScript Basics
@@ -23,6 +24,7 @@ Therefore, I really want to take this course in order to structure the accumulat
 * VS Code
 ***
 **Code example**
+
 ```
 const length = (str) => str.length;
 const toUpperCase = (str) => str.toUpperCase();
@@ -40,6 +42,7 @@ const toUp = (str) => {
 }
 ```
 ***
+
 **Langueges:**
 * Russian - Native
 * Belarusian - Intermadiate
