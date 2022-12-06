@@ -1,18 +1,18 @@
 # Zapolski Igor
 ## Junior Frontend Developer
-***
+*********
 **Contact Information**
 #### Phone +375 29 177 43 09
 #### E-mail: alonemoutain@gmail.com
 #### Telegram: @Ondolinde
 #### [Linkedin](https://www.linkedin.com/in/iharzapolski-a1a8601a2/)
-***
+********
 **About me**
 
 I really like programming, but I have never learned how to teach. At the moment I own HTML, CSS, Core JS at the intermediate level, the initial level of knowledge of Less/SCSS React, Webpack, Gulp, Gif, Figma.
 
 Therefore, I really want to take this course in order to structure the accumulated knowledge, acquire new ones and share with those who have just come.
-***
+********
 
 
 **Skills and Proficiency**
@@ -23,7 +23,7 @@ Therefore, I really want to take this course in order to structure the accumulat
 * Adobe Photoshop, Figma
 * Git/Github
 * VS Code
-***
+********
 **Code example**
 
 
@@ -43,7 +43,7 @@ const toUp = (str) => {
   return newStr.join(' ');
 }
 ```
-***
+**********
 
 
 **Langueges:**
