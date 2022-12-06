@@ -25,6 +25,7 @@ Therefore, I really want to take this course in order to structure the accumulat
 ***
 **Code example**
 
+
 ```
 const length = (str) => str.length;
 const toUpperCase = (str) => str.toUpperCase();
@@ -42,6 +43,7 @@ const toUp = (str) => {
 }
 ```
 ***
+
 
 **Langueges:**
 * Russian - Native
