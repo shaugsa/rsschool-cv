@@ -106,6 +106,79 @@ a {
     background-color: #fff;
 }
 
+.name-prof-section {
+    padding: 200px 300px 200px 40px;
+}
+
+.say-myName {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.my-profession {
+    font-weight: 500;
+}
+
+.section-title {
+    background-color: #9a94b9;
+    padding: 5px 20px;
+    color: #5b655f;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.name-prof-section .my-profession {
+    margin-top: 30px;
+}
+
+.about-me-section p {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.skills-section  ul{
+    list-style: none;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.code-section code{
+    margin-left: 50px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.projects-section ul {
+    list-style: none;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-list__item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+}
+
+.project-link {
+    margin-left: 20px;
+}
+
+.language-section ul{
+    list-style: none;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+/* footer */
+
 footer {
     width: 100%;
     background-color: #b0a7b0;
