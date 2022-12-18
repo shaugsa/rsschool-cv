@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 100px;
+    font-family: 'Unbounded', cursive;
+}
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 50px;
+    font-size: 24px;
+    color: #5b655f;
+    background-color: #9a94b9;
+}
+
+
+.header {
+    background-color: #e3e3e3;
+}
+
+.navbar {
+    padding: 10px 20px;
+    
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* links style */
+
+.navbar-list__item a {
+    display: inline-block;
+    color: #5b655f; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none; 
+    cursor: pointer;
+}
+.navbar-list__item a:after {
+    background-color: #183bb799; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.navbar-list__item a:hover:after,
+.navbar-list__item a:focus:after {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-side {
+    width: 33.3333333%;
+    background-color: #e3e3e3;
+}
+
+.my-photo {
+    width: 100%;
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0 40px;
+}
+
+.contacts-list__item {
+    color: #5b655f;
+    padding-bottom: 10px;
+}
+
+.contacts-list__item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.education-list {
+    list-style: none;
+}
+
+.education-list__item {
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+
+.right-side {
+    width: 66.66666%;
+    background-color: #fff;
+}
+
+.name-prof-section {
+    padding: 200px 300px 200px 40px;
+}
+
+.say-myName {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.my-profession {
+    font-weight: 500;
+}
+
+.section-title {
+    background-color: #9a94b9;
+    padding: 5px 20px;
+    color: #5b655f;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.name-prof-section .my-profession {
+    margin-top: 30px;
+}
+
+.about-me-section p {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.skills-section  ul{
+    list-style: none;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.code-section code{
+    margin-left: 50px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.projects-section ul {
+    list-style: none;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-list__item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+}
+
+.project-link {
+    margin-left: 20px;
+}
+
+.language-section ul{
+    list-style: none;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #b0a7b0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+footer span {
+    color: #5b655f;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.my-github a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #5b655f;
+}
+
+.github-img {
+    width: 60px;
+}
+
+.course-link {
+    width: 100px;
+}
